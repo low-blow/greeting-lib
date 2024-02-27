@@ -1,0 +1,19 @@
+{
+    "name": "low-blow/greeting-lib",
+    "description": "Generates a random greeting message",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "LowBlow\\GreetingLib\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sergey Fadeev",
+            "email": "fadeevsn92@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    }
+}
